@@ -2,11 +2,6 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
 This project is a fully responsive Shopping Cart web application built using React, Redux Toolkit, React Router, Tailwind CSS, and DaisyUI.
 The main goal of this application is to demonstrate how modern frontend tools can be combined to create a smooth and scalable e-commerce experience.
 
