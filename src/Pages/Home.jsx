@@ -1,11 +1,12 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
 import ProductsCard from '../Components/ProductsCard';
+import AddProducts from '../Components/AddProducts';
 
 function Home() {
    
    const products = useSelector((state)=>state.products);
-   console.log(products);
+   
   
 
 
@@ -23,8 +24,8 @@ function Home() {
                 </div>
 
             <div>
-                Add New Products
-                </div>
+                  <AddProducts/>   
+            </div>
        </div>
     </div>
   )

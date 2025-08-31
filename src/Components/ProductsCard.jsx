@@ -1,7 +1,7 @@
 import React from 'react'
 
 function ProductsCard({product}) {
-    const {name,category,image,date} = product || {};
+    const {name,category,image,date,price} = product || {};
   return (
     <div className="card w-96 shadow-sm bg-white">
   <figure>
@@ -16,7 +16,9 @@ function ProductsCard({product}) {
     <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
     <div>{date}</div>
         <div>{category}</div>
-    <div className="card-actions ">
+        <p className='text-xl font-semibold '>${price}</p>
+    <div className="card-actions items-center justify end">
+      
       <button className="btn btn-accent text-white">Add to Cart</button>
     </div>
   </div>
