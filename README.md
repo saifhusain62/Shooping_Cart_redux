@@ -2,6 +2,11 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+#It is fully Dynamic Product upload In this page 
+
+Here is The Live Project URL:
+>>https://shooping-cart-redux-omega.vercel.app/
+
 This project is a fully responsive Shopping Cart web application built using React, Redux Toolkit, React Router, Tailwind CSS, and DaisyUI.
 The main goal of this application is to demonstrate how modern frontend tools can be combined to create a smooth and scalable e-commerce experience.
 
